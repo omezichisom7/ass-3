@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+}
+.hero {
+    background-image: url('Globally\ Accepted\ IT\ Services\ Delivery.jfif');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    padding: 50px 0;
+    text-align: center;
+    color:black; ;
+}
+
+.navbar {
+    background-color: black;
+    padding: 15px;
+    top: 0px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    top: 0px;
+}
+
+.navbar li {
+    margin-left: 30px;
+    top: 0px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    top: 0px;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+.logo {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 14px 20px;
+    background-image: url('hero-image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: yellow;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+button:focus {
+    outline: none;
+}
+button:active {
+    background-color: darkgray;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: content;
+    bottom: 0;
+    width: 100%;
+}
